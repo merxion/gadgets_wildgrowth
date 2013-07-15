@@ -1,0 +1,31 @@
+Identifier = "Gadgets_WildGrowth"
+
+Name = "Gadgets: Wild Growth"
+Description = "Monitors WildGrowth Cooldown timers for raid members."
+
+Author = "Mael"
+Email = "merxion69@hotmail.com"
+
+Version = "1.00"
+
+Environment = "2.3"
+
+RunOnStartup = 
+{
+  "Localization.lua",
+  "WildGrowthFrameGadget.lua",
+}
+
+SavedVariables = 
+{
+}
+
+Embed = 
+{
+}
+
+Dependencies = 
+{
+	Gadgets = {"required", "before"},
+}
+
